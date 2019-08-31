@@ -5,12 +5,12 @@ class Vehicle
     @number = number
   end 
   
-  def wheel_size=(size)
-    @wheel_size = size 
+  def wheel_size
+    @wheel_size  
   end 
   
-  def wheel_number=(number)
-    @wheel_number = number
+  def wheel_number
+    @wheel_number
   end 
   
 end
